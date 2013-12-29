@@ -1,0 +1,31 @@
+{
+	"name": "<%= name %>",
+	"version": "0.0.0",
+	"description": "",
+	"repository": {
+		"type": "",
+		"url": ""
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"grunt": "*",
+		"assemble": "*",
+		"grunt-newer": "*",
+		"grunt-contrib-connect": "*",
+		"grunt-contrib-watch": "*",
+		"grunt-contrib-jshint": "*",
+		"grunt-contrib-sass": "*",
+		"grunt-contrib-copy": "*",
+		"grunt-contrib-csslint": "*",
+		"grunt-contrib-compress": "*",
+		"grunt-contrib-uglify": "*",
+		"grunt-contrib-yuidoc": "*",
+		"grunt-htmlhint": "*",
+		"jshint-stylish": "*",
+		"grunt-bower-task": "*",
+		"grunt-browserify": "*",
+		"grunt-prettify": "*",
+		"time-grunt": "*",
+		"jit-grunt": "*"
+	}
+}
