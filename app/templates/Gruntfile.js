@@ -46,7 +46,7 @@ module.exports = function (grunt) {
 			sass: {
 				expand: true,
 				flatten: true,
-				cwd: '<%%= path.src %>/sass',
+				cwd: '<%%= path.src %>/css',
 				src: ['*.css'],
 				dest: '<%%= path.dev %>/css'
 			},
@@ -140,7 +140,7 @@ module.exports = function (grunt) {
 				files: [
 					{
 						expand: true,
-						cwd: '<%%= path.src %>/css/sass',
+						cwd: '<%%= path.src %>/sass',
 						src: '*.sass',
 						dest: '<%%= path.src %>/css',
 						ext: '.css'
