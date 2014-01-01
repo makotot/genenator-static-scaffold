@@ -255,6 +255,6 @@ module.exports = function (grunt) {
 
 	grunt.registerTask('lint', ['htmlhint', 'csslint', 'jshint']);
 
-	grunt.registerTask('serve', ['assemble', 'htmlhint', 'csslint', 'jshint', 'newer:copy:sass', 'newer:copy:js', 'newer:copy:img', 'connect', 'watch']);
+	grunt.registerTask('serve', ['compile', 'htmlhint', 'csslint', 'jshint', 'newer:copy:sass', 'newer:copy:js', 'newer:copy:img', 'connect', 'watch']);
 
 };
